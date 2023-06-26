@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo class</title>
+    <style>
+        /* .box{height: 50%;
+        width: 50%;
+        border: 2px solid black;
+    
+    } */
+    /* .box.colred{
+        background-color: red;
+    }
+    .box.colgreen{
+        background-color: green;
+    }
+    .box.colblue{
+        background-color: blue;
+    } */
+    /*psedo selector*/
+    *{
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .boxes{
+        
+        width: 600px;
+        background-color: aqua;
+         padding: 25px; 
+         height: 50%;
+
+    }
+    .box{
+       
+        width: 50%;
+         padding:50%; 
+         height: 1.66%;
+    }
+    section p{
+        /*1em=16px*/
+        font-size: 2em;
+        font-size: 32px;
+        font-size: 2rem;
+    }
+    ul{
+        display: flex;
+        list-style: none;
+    }
+    a:active{
+        color: red;
+    }
+       div:first-child{
+        background-color: red
+       } 
+       div:nth-child(2){
+        background-color: green;
+       }
+       div:nth-child(3){
+        background-color: blue;
+       }
+       section p{
+        color: red;
+       }
+       section p:not(first){
+        color: red;
+       }
+section p:not(:nth-child(2)){
+    color: orange;
+}
+       /* div:last-child{
+        background-color: blue;
+       } */
+       /*focus is for used to give css when we click on the form*/
+       
+       input:focus{
+        
+        border: 2px solid red;
+        outline: none;
+       }
+       button:active{
+        background-color: red;
+       }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="">home</a> </li>
+        <li><a href="">about us</a></li>
+        <li><a href="">contact us</a></li>
+    </ul>
+  <section class="boxes">
+    <div class="box ">box 1</div>
+    <div class="box ">box 2</div>
+    <div class="box ">box 3</div>   
+    <!-- <div class="box ">box 4</div>    -->
+</section>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, error nihil, fugiat natus vitae mollitia impedit voluptatibus repellat commodi nemo maiores eligendi quod sint magnam praesentium porro necessitatibus? Ipsum voluptates similique saepe maxime consequatur?</p>
+    <section>
+        <p class="first">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, error nihil, fugiat natus vitae mollitia impedit voluptatibus repellat commodi nemo maiores eligendi quod sint magnam praesentium porro necessitatibus? Ipsum voluptates similique saepe maxime consequatur?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus doloremque ea nostrum saepe adipisci blanditiis molestias ex ipsam nemo ipsum explicabo, at fugiat suscipit, ab delectus, laboriosam in magnam. Perspiciatis consequuntur assumenda minima autem.</p>
+    </section>
+    <form action="">
+        <label for="my name">name</label>
+        <input type="text" name="" id="my name" placeholder="enter your name ">
+        <label for="my email">email</label>
+        <input type="text" name="" id="my email" placeholder="enter your email id ">
+        <button>click here</button>
+    </form>
+
+</body>
+</html>

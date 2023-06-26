@@ -1,0 +1,61 @@
+a{
+   
+    text-decoration: none;
+    
+}
+.listchange2{
+    color: red;
+}
+nav{
+    background-color: green;
+}
+ul{
+    display: flex;
+   justify-content: space-between;
+    list-style: none;
+}
+img{
+    height: 27px;
+    width: 25px;
+    border-radius: 15px;
+   
+}
+a.active {
+    text-decoration: none;
+    color: red;
+}
+/* a.active2 {
+    color: red;
+} */
+.card{
+    border: 1px solid;
+    text-align: center;
+}
+div.active{
+    margin-top: 2px;
+    border: 2px solid red;
+    color: black;
+}
+/* and selectors */
+div.box.active{
+    border: 2px solid green;
+
+}
+a:hover{
+    color:red;
+    background-color: white;
+    font-size: 18px;
+}
+header a:hover{
+    background-color: black;
+}
+/* .card.active{
+    box-shadow: 2;
+} */
+div.box.active:hover{
+    border: 2px solid red;
+    box-shadow: 13px 5px 0px;
+}
+div .card.active:hover{
+    box-shadow: 12px;
+}
