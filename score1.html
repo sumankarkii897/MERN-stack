@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        /* important>inline>id>class>elements */
+        div.paragraph#paraid p{
+            color: bisque;
+        }
+        .paragraph#paraid p{
+            color:greenyellow ;
+        }
+         div.paragraph p{
+            color: brown;
+        }
+        /* score
+        003 */
+        body div p{
+            color: blue;
+        }
+        /* score
+        002 */
+        div p{
+            color: green !important;
+        }
+        /* score 001 */
+        /* important will replace /overide all the css but we increase the score that include the important the it can be override */
+        p{
+            color: red !important;
+        }
+        .paragraph{
+            color: yellow;
+        }
+        .paragraph,.paragraph p{
+            color: aqua;
+        }
+        header ul{
+            padding: 0;
+        }
+        ul li{
+            list-style: none;
+            /* padding: 2px; */
+        }
+        header li{
+            display: inline;
+            gap: 2;
+            
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="paragraph" id="paraid">
+        <p>Lorem ipsum dolor sit.</p>
+        <p>Lorem ipsum dolor sit.</p>
+        <p>Lorem ipsum dolor sit.</p>
+        <span>span elements</span>
+    </div>
+    <header>
+        <ul>
+            <li>home</li>
+            <li>about us</li>
+            <li>contact us</li>
+        </ul>
+    </header>
+    <section>
+        <main>
+
+        </main>
+    </section>
+    <section>
+        <aside>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </aside>
+    </section>
+</body>
+</html>
