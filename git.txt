@@ -1,0 +1,17 @@
+git init type in terminal
+git remote add origin < git url>
+eg git remote add origin  link
+to check if linked or not linked git remote -v
+git status to check 
+u untracked files//new files
+a added //when we do fit add <file name>
+to add file git add index.html
+msg git commit-m"msg"
+git push origin master
+git add . for all file update
+git commit -m"msg"
+git push origin master
+ branches
+ main master
+ to create a new branch
+ git checkout -b <branch-name>
