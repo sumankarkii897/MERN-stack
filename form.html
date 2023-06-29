@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+        }
+.radiobtn-time{
+    margin-left: 220px;
+    margin-bottom: 0px;
+}
+  input[type=number] {
+    width: 19%;
+ 
+}  
+.form1{
+    display: inline-block;
+} 
+
+    </style>
+</head>
+<body>
+    <form action=""  class="form1">
+    <h1>tell us something positive that happened to you today</h1>
+    <div class="data">
+    <label for="my name" >Name </label>
+    <input type="text" name="" class="data_items" id="my name" placeholder="Enter your name">
+<br>
+    
+    <label for="my email">Email </label>
+    <input type="email" name="" class="data_items" id="my email" placeholder="Enter your email address">
+   <br>
+    <label for="my number">on a scaling of 1-10 ,how good was it?</label>
+    <input type="number" name="" class="data_items" id="my number" placeholder="Enter your number between 1 to 10" min="0" max="10"><br>
+</div>
+    <label for="what-happen">Where did it happen?</label>
+   <select name="" id="what-happen">
+   <option value="at home">at home</option>
+   <option value="at school">at school</option>
+   <option value="at outside">at outside</option>
+</select>
+<br>
+<label for="time">at what time of day did it happen</label>
+<br>
+
+<input type="radio" name="" class="radiobtn-time" id="morning">
+<label for="morning">Morning</label><br>
+<input type="radio" name="" class="radiobtn-time" id="afternoon">
+<label for="afternoon">Afternoon</label><br>
+<input type="radio" name=""  class="radiobtn-time"id="evening">
+<label for="evening">Evening</label><br>
+<label for=""></label>
+<label for="">what emotions did you experience</label>
+<label for="">(select all that apply)</label>
+<input type="checkbox" name="" class="" id="Excited">
+<label for="Excited">Excited</label><br>
+<input type="checkbox" name="" class="checkbox_emotion" id="Humbled">
+<label for="Humbled">Humbled</label><br>
+<input type="checkbox" name="" class="checkbox_emotion" id="Elated">
+<label for="Elated">Elated</label><br>
+<input type="checkbox" name="" class="checkbox_emotion" id="loved">
+<label for="loved">loved</label><br>
+<input type="checkbox" name="" class="checkbox_emotion" id="Euthunsiastic">
+<label for="Euthunsiastic">Euthunsiastic</label><br>
+<label for="my text">please describe your positive experience</label>
+<textarea name="" class="" id="my text" cols="30" rows="10"></textarea><br>
+<button class="btn">Submit</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .parent{
+            border: 2px solid black;
+            height: 300px;
+            display: flex;
+            /* justify-content: center; */
+            flex-direction:row;
+
+            /*in flex direction row main axis and cross axis change
+            in that case justifi content effect on the cross axis and align item effect on the main axis*/
+            /* align-items: start; */
+            /* align-items: center; */
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            align-content: flex-start;
+
+
+        }
+    .child{
+        height: 100px;
+        width: 100px;
+        border: 1px solid red;
+    }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child">child 1</div>
+        <div class="child">child 2</div>
+        <div class="child">child 3</div>
+        <div class="child">child 1</div>
+        <div class="child">child 2</div>
+        <div class="child">child 3</div>
+        <div class="child">child 1</div>
+        <div class="child">child 2</div>
+        <div class="child">child 3</div>
+        <div class="child">child 1</div>
+        <div class="child">child 2</div>
+        <div class="child">child 3</div>
+        <div class="child">child 1</div>
+        <div class="child">child 2</div>
+        
+
+    </div>
+</body>
+</html>
