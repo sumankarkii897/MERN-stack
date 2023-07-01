@@ -15,7 +15,3 @@ git push origin master
  main master
  to create a new branch
  git checkout -b <branch-name>
- to switch between branches 
- git checkout <exiting branch>
- to merge branches
- eg: git merge auth //you should be some other branches than auth

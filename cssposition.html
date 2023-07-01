@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 80px;
+            width: 80px;
+            border: 2px solid black;
+        }
+        /*default position is sticky*/
+        .static{
+            position: static;
+        }
+        .relative{
+            position:relative;
+            left: 150px;
+            /*it move in refrence of its original position*/
+             /* top: 50px; */
+            /*bottom: 50px;
+            right: 150px; */
+        }
+        .absolute{
+            position:absolute;
+            top:0;
+            background-color: red;
+            right: 0;
+        }
+        .fixed{
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            background-color: blue;
+        }
+        .sticky{
+            background-color: aqua;
+            position: sticky;
+            top:200px;
+        }
+        nav ul{
+            display: flex;
+        }
+        li{
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>home</li>
+            <li>about us</li>
+            <li>contact us</li>
+        </ul>
+    </nav>
+    <div class="box static">static</div>
+    <div class="box relative">relative</div>
+    <div class="box absolute">absolute</div>
+    <div class="box sticky">sticky</div>
+    <div class="box fixed">fixed</div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quae sunt, amet architecto facere impedit velit. Sed animi corrupti est! Cumque, quam atque unde facere quo fugiat architecto? At maxime tenetur sequi magni expedita?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quae sunt, amet architecto facere impedit velit. Sed animi corrupti est! Cumque, quam atque unde facere quo fugiat architecto? At maxime tenetur sequi magni expedita?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quae sunt, amet architecto facere impedit velit. Sed animi corrupti est! Cumque, quam atque unde facere quo fugiat architecto? At maxime tenetur sequi magni expedita?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quae sunt, amet architecto facere impedit velit. Sed animi corrupti est! Cumque, quam atque unde facere quo fugiat architecto? At maxime tenetur sequi magni expedita?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quae sunt, amet architecto facere impedit velit. Sed animi corrupti est! Cumque, quam atque unde facere quo fugiat architecto? At maxime tenetur sequi magni expedita?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quae sunt, amet architecto facere impedit velit. Sed animi corrupti est! Cumque, quam atque unde facere quo fugiat architecto? At maxime tenetur sequi magni expedita?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quae sunt, amet architecto facere impedit velit. Sed animi corrupti est! Cumque, quam atque unde facere quo fugiat architecto? At maxime tenetur sequi magni expedita?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quae sunt, amet architecto facere impedit velit. Sed animi corrupti est! Cumque, quam atque unde facere quo fugiat architecto? At maxime tenetur sequi magni expedita?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quae sunt, amet architecto facere impedit velit. Sed animi corrupti est! Cumque, quam atque unde facere quo fugiat architecto? At maxime tenetur sequi magni expedita?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quae sunt, amet architecto facere impedit velit. Sed animi corrupti est! Cumque, quam atque unde facere quo fugiat architecto? At maxime tenetur sequi magni expedita?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quae sunt, amet architecto facere impedit velit. Sed animi corrupti est! Cumque, quam atque unde facere quo fugiat architecto? At maxime tenetur sequi magni expedita?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quae sunt, amet architecto facere impedit velit. Sed animi corrupti est! Cumque, quam atque unde facere quo fugiat architecto? At maxime tenetur sequi magni expedita?</p>
+</body>
+</html>

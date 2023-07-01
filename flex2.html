@@ -24,21 +24,42 @@
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            align-content: flex-start;
+            /* align-content: flex; */
 
 
         }
+        /*flex floggy*/
     .child{
         height: 100px;
         width: 100px;
-        border: 1px solid red;
+        border: 1px solid black;
+    }
+    .second,.third{
+       
+        background-color: red;
+        
+    }
+    .second{
+        align-self: flex-start;
+        /* give 2 parts of remaining space into child second */
+        flex-grow: 2;
+    }
+    .third{
+        align-self: flex-end;
+        
+         /* give 1 parts of remaining space into child third
+         flec grow is given to children*/
+        flex-grow: 1;
     }
     </style>
 </head>
 <body>
     <div class="parent">
         <div class="child">child 1</div>
-        <div class="child">child 2</div>
+        <div class="child second">child 2</div>
+        <div class="child third">child 3</div>
+        <div class="child">child 4</div>
+        <!-- <div class="child">child 2</div>
         <div class="child">child 3</div>
         <div class="child">child 1</div>
         <div class="child">child 2</div>
@@ -47,10 +68,7 @@
         <div class="child">child 2</div>
         <div class="child">child 3</div>
         <div class="child">child 1</div>
-        <div class="child">child 2</div>
-        <div class="child">child 3</div>
-        <div class="child">child 1</div>
-        <div class="child">child 2</div>
+        <div class="child">child 2</div> -->
         
 
     </div>
